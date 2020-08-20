@@ -21,3 +21,6 @@ ORDER BY teacher;
             console.log(`${row.cohort}: ${row.teacher}`);
         })
     });
+
+
+pool.query(queryString, values);
